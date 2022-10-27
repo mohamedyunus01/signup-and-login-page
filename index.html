@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>login page</title>
+
+        <!-- Font Awesome-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/js/all.min.js" integrity="sha512-ISfdo0dGmoT6xQiYhsCuBXNy982/TMgk9WnSeFiLoBVffcwXCWMyfYtmobfJuBvSQZVpjPvEJtGEPdTH9XKpvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">login page</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LOG IN</a>
+                </li>
+
+               </ul> 
+            </div>
+        </nav>
+
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h1>.</h1>
+            <div class="content">
+              <div class="slider-wrapper">
+                
+                <!-- <div class="slider">
+                  <div class="slider-text1">Bitcoin</div>
+                  <div class="slider-text2">Ethereum</div>
+                  <div class="slider-text3">Dogecoin</div>
+                </div> -->
+                <div class="slider">
+                  <div class="slider-text1">
+                    <span class="full-text">welcome</span>
+                    <span class="short-text">iam a developer</span>
+                  </div>
+                  <div class="slider-text2">
+                    <span class="full-text"></span>
+                    <span class="short-text">android adeveloper</span>
+                  </div>
+                  <div class="slider-text3">
+                    <span class="full-text">to our site</span>
+                    <span class="short-text">website developer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 style="margin-top: 5%;">created by <em>mohamed yunus</em> .</h2>
+           
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="container">
+                <div class="box">
+                  <h2 style="text-align: center; color: rgb(14, 13, 13); font-weight: bold;">SIGN UP</h2>
+                  <div class="user">
+                    <input type="text" name="username" id="username" autocomplete="off" placeholder="Username" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <input type="password" name="password" id="password" autocomplete="off" placeholder="Password" required minlength="8">
+                    <input type="password" name="confirm-password" id="confirm-password" autocomplete="off" placeholder="Confirm Password" required minlength="8" onchange='check()'>
+                   
+                  <div class="login-btn">
+                    <button class="btn btn-md btn-outline-primary" type="submit" id="submit" onclick="validate()">SIGNUP</button>
+
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>        
+
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
